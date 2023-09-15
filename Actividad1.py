@@ -1,0 +1,8 @@
+texto1=input("Ingrese el primer texto:")
+texto2=input("Ingrese el segundo texto:")
+texto3=input("Ingrese el tercer texto:")
+texto4=input("Ingrese el cuarto texto:")
+suma_longitudes=len(texto1)+len(texto2)+len(texto3)+len(texto4)
+print("La suma de las longitudes es:",suma_longitudes)
+texto_mayor=max(texto1,texto2,texto3,texto4,key=len)
+print("El texto con mayo cantidad de caracteres es:",texto_mayor)
